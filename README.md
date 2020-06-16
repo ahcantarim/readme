@@ -1,3 +1,18 @@
+<p align="center">
+ <a href="#títulos">Títulos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#parágrafos-e-quebras-de-linha">Parágrafos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#ênfase">Ênfase</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#blocos-de-citação">Blocos de citação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#listas">Listas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#imagens">Imagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#tabelas">Tabelas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#task-lists">Task Lists</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#código-inline-e-bloco">Código</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#backslash-scapes">Scapes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#referências">Referências</a>
+</p>
+
 # Títulos
 
 Para marcar um título, você vai usar # a quantidade de vezes que irá representar o nível do título. Exemplo:
@@ -178,7 +193,9 @@ Além de tudo isso, é importante saber também, que é possível usar HTML junt
 # Referências
 
 <https://blog.da2k.com.br/2015/02/08/aprenda-markdown/>
+
 <https://help.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax>
+
 <https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8>
 
 ---
