@@ -56,23 +56,26 @@ Parágrafo 3.
 Para itálico, utilizar `\*` ou `\_`.  
 
 ```
-\_Exemplo de texto\_
+_Exemplo de texto_
 ```
 _Exemplo de texto_
+
 
 Para negrito, utilizar `\*\*` ou `\_\_`.  
 
 ```
-\*\*Exemplo de texto\*\*
+**Exemplo de texto**
 ```
 **Exemplo de texto**
+
 
 Para riscado, utilizar `~~`.  
 
 ```
-\~\~Exemplo de texto\~\~
+~~Exemplo de texto~~
 ```
 ~~Exemplo de texto~~
+
 
 ## Links
 
@@ -82,7 +85,7 @@ Para gerar links, utilizar `[]` e `()`.
 Dentro de `[]` colocar o texto do link e dentro de `()` colocar a URL:  
 
 ```
-\[Link Aqui\](http://www.link.com):  
+[Link Aqui](http://www.link.com):  
 ```
 [Link Aqui](http://www.link.com)
 
@@ -91,7 +94,7 @@ Pode-se informar um texto após a URL, separando o link do texto por um espaço 
 Esse texto será usado como `title`:
 
 ```
-\[Link Aqui\](http://www.link.com "Clique aqui para acessar"):  
+[Link Aqui](http://www.link.com "Clique aqui para acessar"):  
 ```
 [Link Aqui](http://www.link.com "Clique aqui para acessar")
 
@@ -100,16 +103,17 @@ Esse texto será usado como `title`:
 Se o texto do seu link é o próprio link, pode-se envolvê-lo entre `<>`, que o link será gerado automaticamente:
 
 ```
-\<https://www.google.com.br\>  
+<https://www.google.com.br>  
 ```
 <https://www.google.com.br>
 
 E funciona também para e-mails:
 
 ```
-\<meu@email.com\>  
+<meu@email.com>  
 ```
 <meu@email.com>
+
 
 ## Blocos de citação
 
@@ -133,27 +137,25 @@ Para criar um bloco de citação, utilizar `>` no início da linha.
 Para listas não ordenadas, utilizar `*`, `+` ou `-`.
 
 ```
-\* Item 1
+* Item 1
++ Item 2
+- Item 3
 ```
 * Item 1
-  
-```
-\+ Item 1
-```
-+ Item 1
-
-```
-\- Item 1
-```
-- Item 1
++ Item 2
+- Item 3
 
 
 Para listas ordenadas, utilizar o número seguido de `.`:
 
 ```
-1\. Item 1
+1. Item 1
+2. Item 2
+3. Item 3
 ```
 1. Item 1
+2. Item 2
+3. Item 3
 
 
 ## Imagens
@@ -162,19 +164,17 @@ Geração de imagens é bem parecido com a geração de links: você só precisa
 Para adicionar imagens, utilizar como links, adicionando `!` no início.
 
 ```
-\!\[Account\]\(https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-128.png\)
+![Account](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-64.png)
 ```
-
-![Account](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-128.png)
+![Account](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-64.png)
 
 
 O `title` também funciona como no link:
 
 ```
-\!\[Account\]\(https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-128.png "Minha conta"\)
+![Account](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-64.png "Minha conta")
 ```
-
-![Account](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-128.png "Minha conta")
+![Account](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-64.png "Minha conta")
 
 
 ## Tabelas
@@ -182,10 +182,12 @@ O `title` também funciona como no link:
 Para criar tabelas, utilizar `|` para separar colunas e `-` para separar linha de título:
 
 ```
-Alimentos | Preço  
---------- | -----
-Arroz     | R$ 10  
-...  
+Alimentos | Preço
+--------- | ------
+Arroz     | R$ 10
+Feijão    | R$ 8
+Batata    | R$ 7
+Macarrão  | R$ 8 
 ```
 
 Alimentos | Preço
@@ -222,7 +224,7 @@ Para criar uma lista de tarefas, utilizar a notação `- [ ] Texto da task` (par
 
 ## Código inline e bloco
 
-Para adicionar código a nível inline, utilizar `\``:
+Para adicionar código a nível inline, utilizar `crase`:
 
 ```
 O `<blockquote>` é uma tag HTML.
@@ -239,12 +241,15 @@ function sayHello() {
 
 Você ainda pode definir qual a linguagem que está sendo utilizada, para que seja feito `code highlight` no seu código. Para isso, informar a linguagem após as 3 crases, dessa forma:
 
+### js
 ```js
 function sayHello() {
   return 'Hi';
 }
 ```
 
+
+### bash
 ```bash
   # Clonando o repositório
   $ git clone https://github.com/ahcantarim/readme
@@ -276,9 +281,9 @@ Se você precisar adicionar uma classe em uma imagem para alinhar, ou colocar um
 
 ## Referências
 
-[Aprenda Markdown | Da2k Blog]<https://blog.da2k.com.br/2015/02/08/aprenda-markdown/>
+[Aprenda Markdown](https://blog.da2k.com.br/2015/02/08/aprenda-markdown/)
 
-[Sintaxe básica de escrita e formatação no GitHub]<https://help.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax>
+[Sintaxe básica de escrita e formatação no GitHub](https://help.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 ---
 
