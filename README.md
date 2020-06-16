@@ -1,4 +1,4 @@
-# Títulos (<h1> a <h6>)
+# Títulos
 
 Para marcar um título, você vai usar # a quantidade de vezes que irá representar o nível do título. Exemplo:
 
@@ -9,26 +9,26 @@ Para marcar um título, você vai usar # a quantidade de vezes que irá represen
 ##### Título nível 5
 ###### Título nível 6
 
-# Parágrafos e quebras de linha (<p> e <br />)
+# Parágrafos e quebras de linha
 
 Para gerar parágrafos, basta você escrever o texto pulando uma linha, ou colocando dois espaços em branco ao final:
 
-Parágrafo.  
-Parágrafo.  
+Parágrafo 1.  
+Parágrafo 2.  
 
-# Ênfase (<strong> e <em>)
+# Ênfase
 
-Para enfatizar uma palavras (<em>), usamos um * ou _:
+Para enfatizar uma palavras, usamos um `asterisco` ou um `underline`:
 
 Textos *com ênfase* podem ser feitos _dessas formas_.
 
-Para dar forte ênfase em palavras (<strong>), você usa dois ** ou __:
+Para dar forte ênfase em palavras, você usa dois `asteriscos` ou dois `underlines`:
 
 Textos **com forte ênfase** podem ser feitos __dessas formas__.
 
-# Links (<a>)
+# Links
 
-Para gerar links, você usa [](). Dentro dos colchetes você coloca o texto do link, e dentro dos parênteses, você coloca a URL:
+Para gerar links, você usa `colchetes` e `parênteses`. Dentro dos colchetes você coloca o texto do link, e dentro dos parênteses, você coloca a URL:
 
 [Blog do Da2k](https://blog.da2k.com.br)
 
@@ -38,7 +38,7 @@ Passando um texto após a URL, separando o link do texto por um espaço em branc
 
 # Links automáticos
 
-Se o texto do seu link é o próprio link, você pode envolvê-lo entre < e >, que o link será gerado automaticamente:
+Se o texto do seu link é o próprio link, você pode envolvê-lo entre `<` e `>`, que o link será gerado automaticamente:
 
 <https://www.google.com.br>
 
@@ -46,28 +46,31 @@ E isso funciona também para e-mails:
 
 <meu@email.com>
 
-# Blocos de citação (<blockquote>)
+# Blocos de citação
 
 > Esse é um bloco de citação.
 > Ele pode ter várias linhas por parágrafo.
 >
 > Inclusive, dando um espaço, você tem um novo parágrafo.
 
-# Listas (<ul> e <ol>)
+# Listas
 
-Para listas não ordenadas (<ul>), você pode usar *, + ou -. Veja:
+Para listas não ordenadas, você pode usar *, + ou -. Veja:
 
 * Item 1
 * Item 2
 * Item 3
   
+
 + Item 1
 + Item 2
 + Item 3
   
+
 - Item 1
 - Item 2
 - Item 3
+
 
 E para listas ordenadas, você usa o número, seguido de ponto:
 
@@ -75,23 +78,17 @@ E para listas ordenadas, você usa o número, seguido de ponto:
 2. Item 2
 3. Item 3
 
-Alguns parsers renderizam automaticamente os próximos números, após o 1. Você só precisa usar * para os itens do 2 em diante:
+# Imagens
 
-1. Item 1
-* Item 2
-* Item 3
-
-# Imagens (<img />)
-
-Geração de imagens é bem parecido com a geração de links: você só precisa adicionar uma ! no início. E o texto que você coloca entre os colchetes, é usado como alt na imagem:
+Geração de imagens é bem parecido com a geração de links: você só precisa adicionar uma `!` no início. E o texto que você coloca entre os colchetes, é usado como `alt` na imagem:
 
 ![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)
 
-O title também funciona como no link:
+O `title` também funciona como no link:
 
 ![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif "Olha a banana dançando!")
 
-# Tabelas (<table>)
+# Tabelas
 
 Para criar tabelas, também é bem simples:
 
@@ -102,12 +99,12 @@ Feijão    | R$ 8
 Batata    | R$ 7
 Macarrão  | R$ 8
 
-O título da tabela é marcado com os traços - abaixo da palavra. O pipe | cria as colunas. Não é necessário alinhar com espaços, mas visualmente fica melhor. Não precisa fazer se tiver preguiça :P
+O título da tabela é marcado com os traços `-` abaixo da palavra. O pipe `|` cria as colunas. Não é necessário alinhar com espaços, mas visualmente fica melhor. Não precisa fazer se tiver preguiça...
 
-Você consegue alinhar usando : nos traços que ficam abaixo do título da tabela.
+Você consegue alinhar usando `:` nos traços que ficam abaixo do título da tabela.
 
-Se usar : no lado esquerdo, o alinhamento será feito à esquerda (padrão);
-Se usar : no lado direito, o alinhamento será feito à direita;
+Se usar `:` no lado esquerdo, o alinhamento será feito à esquerda (padrão);
+Se usar `:` no lado direito, o alinhamento será feito à direita;
 E para centralizar, use dos dois lados.
 
 Alimentos | Preço
@@ -119,14 +116,14 @@ Macarrão  | R$ 8
 
 # Task lists
 
-Basta você usar a notação - [ ] Texto da task (com um espaço dentro dos colchetes) para criar um checkbox desmarcado, ou então - [x] Texto da task, para um checkbox marcado. Exemplo:
+Basta você usar a notação `- [ ] Texto da task` (com um espaço dentro dos colchetes) para criar um checkbox desmarcado, ou então `- [x] Texto da task`, para um checkbox marcado. Exemplo:
 
 - [ ] Comprar arroz
 - [ ] Comprar feijão
 - [ ] Comprar batata
 - [x] Comprar macarrão
 
-# Código inline e bloco (<code> e <pre>)
+# Código inline e bloco
 
 Vocế ainda pode adicionar trechos de código via Markdown. Para adicionar código a nível inline, você usa \`:
 
