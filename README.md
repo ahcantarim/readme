@@ -125,7 +125,7 @@ Basta você usar a notação `- [ ] Texto da task` (com um espaço dentro dos co
 
 # Código inline e bloco
 
-Vocế ainda pode adicionar trechos de código via Markdown. Para adicionar código a nível inline, você usa \`:
+Você ainda pode adicionar trechos de código via Markdown. Para adicionar código a nível inline, você usa \`:
 
 O `<blockquote>` é uma tag HTML.
 
@@ -141,8 +141,7 @@ Isso é como está na documentação. Mas a maior parte dos parses que eu conhe�
 ```
 function sayHello() {
   return 'Hi';
-}
-```
+}```
 
 O Github inclusive recomenda que se use as 3 crases, pois é mais fácil de visualizar e dar manutenção no código.
 
@@ -151,7 +150,7 @@ No Github, você ainda consegue definir qual a linguagem que está sendo utiliza
 ```js
 function sayHello() {
   return 'Hi';
-}
+}```
 
 # Backslash scapes
 
