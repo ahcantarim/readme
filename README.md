@@ -1,17 +1,17 @@
 # Sumário
 
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#títulos">Títulos</a>
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#parágrafos-e-quebras-de-linha">Parágrafos e quebras de linha</a>
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#ênfase">Ênfase</a>
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#links">Links</a>
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#blocos-de-citação">Blocos de citação</a>
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#listas">Listas</a>
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#imagens">Imagens</a>
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#tabelas">Tabelas</a>
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#task-lists">Task List</a>
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#código-inline-e-bloco">Código inline e em bloco</a>
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#backslash-scapes">Backslash Scapes</a>
-- ![>](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice331-24.png) <a href="#referências">Referências</a>
+- <a href="#títulos">Títulos</a>
+- <a href="#parágrafos-e-quebras-de-linha">Parágrafos e quebras de linha</a>
+- <a href="#ênfase">Ênfase</a>
+- <a href="#links">Links</a>
+- <a href="#blocos-de-citação">Blocos de citação</a>
+- <a href="#listas">Listas</a>
+- <a href="#imagens">Imagens</a>
+- <a href="#tabelas">Tabelas</a>
+- <a href="#task-lists">Task List</a>
+- <a href="#código-inline-e-bloco">Código inline e em bloco</a>
+- <a href="#backslash-scapes">Backslash Scapes</a>
+- <a href="#referências">Referências</a>
 
 ## Títulos
 
@@ -20,20 +20,26 @@ Para marcar um título, utilizar `#` a quantidade de vezes que irá representar 
 \# Título nível 1:
 # Título nível 1
 
+
 \#\# Título nível 2:
 ## Título nível 2
+
 
 \#\#\# Título nível 3:
 ### Título nível 3
 
+
 \#\#\#\# Título nível 4:
 #### Título nível 4
+
 
 \#\#\#\#\# Título nível 5:
 ##### Título nível 5
 
+
 \#\#\#\#\#\# Título nível 6:
 ###### Título nível 6
+
 
 ## Parágrafos e quebras de linha
 
@@ -44,95 +50,143 @@ Parágrafo 2.
 
 Parágrafo 3.
 
+
 ## Ênfase
 
-Para itálico, utilizar `\*` ou `\_`:
+Para itálico, utilizar `\*` ou `\_`.  
+
+```
+\_Exemplo de texto\_
+```
 _Exemplo de texto_
 
-Para negrito, utilizar `\*\*` ou `\_\_`:
+Para negrito, utilizar `\*\*` ou `\_\_`.  
+
+```
+\*\*Exemplo de texto\*\*
+```
 **Exemplo de texto**
 
-Para riscado, utilizar `~~`:
+Para riscado, utilizar `~~`.  
+
+```
+\~\~Exemplo de texto\~\~
+```
 ~~Exemplo de texto~~
 
 ## Links
 
 ### Links manuais
 
-Para gerar links, utilizar `\[\]` e `\(\)`.
-Dentro de `\[\]` colocar o texto do link e dentro de `\(\)` colocar a [URL]:
+Para gerar links, utilizar `[]` e `()`.  
+Dentro de `[]` colocar o texto do link e dentro de `()` colocar a URL:  
 
-\[Link Aqui\]\(http://www.link.com\):
+```
+\[Link Aqui\](http://www.link.com):  
+```
 [Link Aqui](http://www.link.com)
 
-Pode-se informar um texto após a [URL], separando o link do texto por um espaço em branco. Esse texto será usado como `title`:
 
-\[Link Aqui\]\(http://www.link.com "Clique aqui para acessar"\)
-[Link Aqui](http://www.link.com "Clique aqui para acessar"):
+Pode-se informar um texto após a URL, separando o link do texto por um espaço em branco.  
+Esse texto será usado como `title`:
+
+```
+\[Link Aqui\](http://www.link.com "Clique aqui para acessar"):  
+```
+[Link Aqui](http://www.link.com "Clique aqui para acessar")
 
 ### Links automáticos
 
 Se o texto do seu link é o próprio link, pode-se envolvê-lo entre `<>`, que o link será gerado automaticamente:
 
-\<https://www.google.com.br\>
+```
+\<https://www.google.com.br\>  
+```
 <https://www.google.com.br>
 
 E funciona também para e-mails:
 
-\<meu@email.com\>
+```
+\<meu@email.com\>  
+```
 <meu@email.com>
 
 ## Blocos de citação
 
 Para criar um bloco de citação, utilizar `>` no início da linha.
 
+```
 \> Esse é um bloco de citação:
+\> Ele pode ter várias linhas por parágrafo.
+\>
+\> Inclusive, dando um espaço, você tem um novo parágrafo.
+```
 
 > Esse é um bloco de citação.
 > Ele pode ter várias linhas por parágrafo.
 >
 > Inclusive, dando um espaço, você tem um novo parágrafo.
 
+
 ## Listas
 
 Para listas não ordenadas, utilizar `*`, `+` ou `-`.
 
+```
 \* Item 1
+```
 * Item 1
   
+```
 \+ Item 1
+```
 + Item 1
 
+```
 \- Item 1
+```
 - Item 1
 
 
 Para listas ordenadas, utilizar o número seguido de `.`:
 
+```
 1\. Item 1
+```
 1. Item 1
+
 
 ## Imagens
 
 Geração de imagens é bem parecido com a geração de links: você só precisa adicionar uma `!` no início. E o texto que você coloca entre os colchetes, é usado como `alt` na imagem:
 Para adicionar imagens, utilizar como links, adicionando `!` no início.
 
+```
 \!\[Account\]\(https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-128.png\)
+```
+
 ![Account](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-128.png)
+
 
 O `title` também funciona como no link:
 
+```
 \!\[Account\]\(https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-128.png "Minha conta"\)
+```
+
 ![Account](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-128.png "Minha conta")
+
 
 ## Tabelas
 
 Para criar tabelas, utilizar `|` para separar colunas e `-` para separar linha de título:
 
-Alimentos \| Preço
-\- | \-
-Arroz \| R$ 10
-...
+```
+Alimentos | Preço  
+--------- | -----
+Arroz     | R$ 10  
+...  
+```
 
 Alimentos | Preço
 --------- | ------
@@ -141,12 +195,12 @@ Feijão    | R$ 8
 Batata    | R$ 7
 Macarrão  | R$ 8
 
-Não é necessário alinhar com espaços, mas visualmente fica melhor.
-Para alinhar o conteúdo, utilizar `:` nos `-` que ficam abaixo do título da tabela.
+Não é necessário alinhar com espaços, mas visualmente fica melhor.  
+Para alinhar o conteúdo, utilizar `:` nos `-` que ficam abaixo do título da tabela.  
 
-Se utilizar `:` no lado esquerdo, o alinhamento será feito à esquerda (padrão);
-Se utilizar `:` no lado direito, o alinhamento será feito à direita;
-Para centralizar, utilizar dos dois lados.
+Se utilizar `:` no lado esquerdo, o alinhamento será feito à esquerda (padrão);  
+Se utilizar `:` no lado direito, o alinhamento será feito à direita;  
+Para centralizar, utilizar dos dois lados.  
 
 Alimentos | Preço
 :-------: | ------:
@@ -154,6 +208,7 @@ Arroz     | R$ 10
 Feijão    | R$ 8
 Batata    | R$ 7
 Macarrão  | R$ 8
+
 
 ## Task lists
 
@@ -164,11 +219,14 @@ Para criar uma lista de tarefas, utilizar a notação `- [ ] Texto da task` (par
 - [ ] Comprar batata
 - [x] Comprar macarrão
 
+
 ## Código inline e bloco
 
 Para adicionar código a nível inline, utilizar `\``:
 
-O \`<blockquote>\` é uma tag HTML.
+```
+O `<blockquote>` é uma tag HTML.
+```
 O `<blockquote>` é uma tag HTML.
 
 Para gerar blocos de código, utilizar três `crases` no início da primeira e última linha, para marcar o início e o fim do bloco:
@@ -192,6 +250,7 @@ function sayHello() {
   $ git clone https://github.com/ahcantarim/readme
 ```
 
+
 ## Backslash Scapes
 
 Para escapar caracteres que são parseados pelo [Markdown], utilizar a barra invertida `\` (backslash) seguida do caractere, para imprimí-lo literalmente. O escape funciona para os caracteres listados abaixo:
@@ -213,6 +272,7 @@ _   underscore
 
 Além de tudo isso, é importante saber também, que *é possível usar HTML junto com [Markdown]*.
 Se você precisar adicionar uma classe em uma imagem para alinhar, ou colocar uma cor específica em alguma palavra, você pode usar tags HTML normalmente.
+
 
 ## Referências
 
