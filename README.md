@@ -120,10 +120,10 @@ E funciona também para e-mails:
 Para criar um bloco de citação, utilizar `>` no início da linha.
 
 ```
-\> Esse é um bloco de citação:
-\> Ele pode ter várias linhas por parágrafo.
-\>
-\> Inclusive, dando um espaço, você tem um novo parágrafo.
+> Esse é um bloco de citação:
+> Ele pode ter várias linhas por parágrafo.
+>
+> Inclusive, dando um espaço, você tem um novo parágrafo.
 ```
 
 > Esse é um bloco de citação.
