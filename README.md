@@ -53,7 +53,7 @@ Parágrafo 3.
 
 ## Ênfase
 
-Para itálico, utilizar `\*` ou `\_`.  
+Para itálico, utilizar `*` ou `_`.  
 
 ```
 _Exemplo de texto_
@@ -61,12 +61,20 @@ _Exemplo de texto_
 _Exemplo de texto_
 
 
-Para negrito, utilizar `\*\*` ou `\_\_`.  
+Para negrito, utilizar `**` ou `__`.  
 
 ```
 **Exemplo de texto**
 ```
 **Exemplo de texto**
+
+
+Para negrito e itálico, utilizar `***`.  
+
+```
+***Exemplo de texto***
+```
+***Exemplo de texto***
 
 
 Para riscado, utilizar `~~`.  
