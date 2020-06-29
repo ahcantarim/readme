@@ -41,7 +41,7 @@ Para marcar um título, utilizar `#` a quantidade de vezes que irá representar 
 ###### Título nível 6
 
 
-<a href="#imagens">🔝 Voltar ao topo</a>
+<a href="#sumário">🔝 Voltar ao topo</a>
 
 
 ## Parágrafos e quebras de linha
@@ -54,7 +54,7 @@ Parágrafo 2.
 Parágrafo 3.
 
 
-<a href="#imagens">🔝 Voltar ao topo</a>
+<a href="#sumário">🔝 Voltar ao topo</a>
 
 
 ## Ênfase
@@ -91,7 +91,7 @@ Para riscado, utilizar `~~`.
 ~~Exemplo de texto~~
 
 
-<a href="#imagens">🔝 Voltar ao topo</a>
+<a href="#sumário">🔝 Voltar ao topo</a>
 
 
 ## Links
@@ -132,7 +132,7 @@ E funciona também para e-mails:
 <meu@email.com>
 
 
-<a href="#imagens">🔝 Voltar ao topo</a>
+<a href="#sumário">🔝 Voltar ao topo</a>
 
 
 ## Blocos de citação
@@ -152,7 +152,7 @@ Para criar um bloco de citação, utilizar `>` no início da linha.
 > Inclusive, dando um espaço, você tem um novo parágrafo.
 
 
-<a href="#imagens">🔝 Voltar ao topo</a>
+<a href="#sumário">🔝 Voltar ao topo</a>
 
 
 ## Listas
@@ -181,7 +181,7 @@ Para listas ordenadas, utilizar o número seguido de `.`:
 3. Item 3
 
 
-<a href="#imagens">🔝 Voltar ao topo</a>
+<a href="#sumário">🔝 Voltar ao topo</a>
 
 
 ## Imagens
@@ -203,7 +203,7 @@ O `title` também funciona como no link:
 ![Account](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-64.png "Minha conta")
 
 
-<a href="#imagens">🔝 Voltar ao topo</a>
+<a href="#sumário">🔝 Voltar ao topo</a>
 
 
 ## Tabelas
@@ -241,7 +241,7 @@ Para centralizar, utilizar dos dois lados.
 | Macarrão  |  R$ 8 |
 
 
-<a href="#imagens">🔝 Voltar ao topo</a>
+<a href="#sumário">🔝 Voltar ao topo</a>
 
 
 ## Task lists
@@ -254,7 +254,7 @@ Para criar uma lista de tarefas, utilizar a notação `- [ ] Texto da task` (par
 - [x] Comprar macarrão
 
 
-<a href="#imagens">🔝 Voltar ao topo</a>
+<a href="#sumário">🔝 Voltar ao topo</a>
 
 
 ## Código inline e bloco
@@ -291,7 +291,7 @@ function sayHello() {
 ```
 
 
-<a href="#imagens">🔝 Voltar ao topo</a>
+<a href="#sumário">🔝 Voltar ao topo</a>
 
 
 ## Backslash Scapes
@@ -317,7 +317,7 @@ Além de tudo isso, é importante saber também, que *é possível usar HTML jun
 Se você precisar adicionar uma classe em uma imagem para alinhar, ou colocar uma cor específica em alguma palavra, você pode usar tags HTML normalmente.
 
 
-<a href="#imagens">🔝 Voltar ao topo</a>
+<a href="#sumário">🔝 Voltar ao topo</a>
 
 
 ## Referências
