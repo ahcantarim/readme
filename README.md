@@ -1,4 +1,4 @@
-# Sumário
+## Sumário
 
 - <a href="#títulos">Títulos</a>
 - <a href="#parágrafos-e-quebras-de-linha">Parágrafos e quebras de linha</a>
@@ -41,6 +41,9 @@ Para marcar um título, utilizar `#` a quantidade de vezes que irá representar 
 ###### Título nível 6
 
 
+<a href="#imagens">🔝 Voltar ao topo</a>
+
+
 ## Parágrafos e quebras de linha
 
 Para gerar parágrafos, escrever o texto pulando uma linha, ou colocar dois espaços em branco ao final:
@@ -49,6 +52,9 @@ Parágrafo 1.
 Parágrafo 2. 
 
 Parágrafo 3.
+
+
+<a href="#imagens">🔝 Voltar ao topo</a>
 
 
 ## Ênfase
@@ -83,6 +89,9 @@ Para riscado, utilizar `~~`.
 ~~Exemplo de texto~~
 ```
 ~~Exemplo de texto~~
+
+
+<a href="#imagens">🔝 Voltar ao topo</a>
 
 
 ## Links
@@ -123,6 +132,9 @@ E funciona também para e-mails:
 <meu@email.com>
 
 
+<a href="#imagens">🔝 Voltar ao topo</a>
+
+
 ## Blocos de citação
 
 Para criar um bloco de citação, utilizar `>` no início da linha.
@@ -138,6 +150,9 @@ Para criar um bloco de citação, utilizar `>` no início da linha.
 > Ele pode ter várias linhas por parágrafo.
 >
 > Inclusive, dando um espaço, você tem um novo parágrafo.
+
+
+<a href="#imagens">🔝 Voltar ao topo</a>
 
 
 ## Listas
@@ -166,6 +181,9 @@ Para listas ordenadas, utilizar o número seguido de `.`:
 3. Item 3
 
 
+<a href="#imagens">🔝 Voltar ao topo</a>
+
+
 ## Imagens
 
 Geração de imagens é bem parecido com a geração de links: você só precisa adicionar uma `!` no início. E o texto que você coloca entre os colchetes, é usado como `alt` na imagem:
@@ -185,25 +203,28 @@ O `title` também funciona como no link:
 ![Account](https://cdn3.iconfinder.com/data/icons/signs-symbols-5/126/slice330-64.png "Minha conta")
 
 
+<a href="#imagens">🔝 Voltar ao topo</a>
+
+
 ## Tabelas
 
 Para criar tabelas, utilizar `|` para separar colunas e `-` para separar linha de título:
 
 ```
-Alimentos | Preço
---------- | ------
-Arroz     | R$ 10
-Feijão    | R$ 8
-Batata    | R$ 7
-Macarrão  | R$ 8 
+| Alimentos | Preço |
+| --------- | ----- |
+| Arroz     | R$ 10 |
+| Feijão    | R$ 8  |
+| Batata    | R$ 7  |
+| Macarrão  | R$ 8  |
 ```
 
-Alimentos | Preço
---------- | ------
-Arroz     | R$ 10
-Feijão    | R$ 8
-Batata    | R$ 7
-Macarrão  | R$ 8
+| Alimentos | Preço |
+| --------- | ----- |
+| Arroz     | R$ 10 |
+| Feijão    | R$ 8  |
+| Batata    | R$ 7  |
+| Macarrão  | R$ 8  |
 
 Não é necessário alinhar com espaços, mas visualmente fica melhor.  
 Para alinhar o conteúdo, utilizar `:` nos `-` que ficam abaixo do título da tabela.  
@@ -212,12 +233,15 @@ Se utilizar `:` no lado esquerdo, o alinhamento será feito à esquerda (padrão
 Se utilizar `:` no lado direito, o alinhamento será feito à direita;  
 Para centralizar, utilizar dos dois lados.  
 
-Alimentos | Preço
-:-------: | ------:
-Arroz     | R$ 10
-Feijão    | R$ 8
-Batata    | R$ 7
-Macarrão  | R$ 8
+| Alimentos | Preço |
+| :-------: | ----: |
+|   Arroz   | R$ 10 |
+|  Feijão   |  R$ 8 |
+|  Batata   |  R$ 7 |
+| Macarrão  |  R$ 8 |
+
+
+<a href="#imagens">🔝 Voltar ao topo</a>
 
 
 ## Task lists
@@ -228,6 +252,9 @@ Para criar uma lista de tarefas, utilizar a notação `- [ ] Texto da task` (par
 - [ ] Comprar feijão
 - [ ] Comprar batata
 - [x] Comprar macarrão
+
+
+<a href="#imagens">🔝 Voltar ao topo</a>
 
 
 ## Código inline e bloco
@@ -264,6 +291,9 @@ function sayHello() {
 ```
 
 
+<a href="#imagens">🔝 Voltar ao topo</a>
+
+
 ## Backslash Scapes
 
 Para escapar caracteres que são parseados pelo [Markdown], utilizar a barra invertida `\` (backslash) seguida do caractere, para imprimí-lo literalmente. O escape funciona para os caracteres listados abaixo:
@@ -285,6 +315,9 @@ _   underscore
 
 Além de tudo isso, é importante saber também, que *é possível usar HTML junto com [Markdown]*.
 Se você precisar adicionar uma classe em uma imagem para alinhar, ou colocar uma cor específica em alguma palavra, você pode usar tags HTML normalmente.
+
+
+<a href="#imagens">🔝 Voltar ao topo</a>
 
 
 ## Referências
